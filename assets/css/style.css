@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+main{
+    background-color: aqua;
+}
+
+#griglia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 30%;
+    margin: 0 auto;
+    
+}
+
+.quadrato{
+    border: 2px solid black;
+    width: calc( 100% / 10 );
+    aspect-ratio: 1/1;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.attiva{
+    background-color: chocolate;
+}
+
+
+
